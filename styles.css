@@ -1,0 +1,51 @@
+.main{
+  display: grid;
+  grid-template-columns: 530px 250px 530px;
+}
+
+.hero1,.hero2,.hero3,.hero4,.villian1,.villian2,.villian3,.villian4{
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+}
+
+.hero{
+  display: grid;
+  grid-template-columns: repeat(2, 180px);
+  grid-template-rows: repeat(2, 250px);
+  grid-gap: 50px;
+  justify-content: flex-end;
+}
+
+.villian{
+  display: grid;
+  grid-template-columns: repeat(2, 180px);
+  grid-template-rows: repeat(2, 250px);
+  grid-gap: 50px;
+}
+
+img{
+  padding-left: 35px;
+} 
+
+p{
+  text-align: center;
+}
+
+.name{
+  font-size: 1.2rem;
+}
+
+.strength{
+  font-size: 2rem;
+}
+
+.score{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.footer{
+  padding-top: 50px;
+  margin-left : 80px;
+  font-size : 18px;
+}
